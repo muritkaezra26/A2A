@@ -453,6 +453,8 @@
       
         
       
+        
+      
     
     
     
@@ -597,6 +599,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#agent-response-task-or-message" class="md-nav__link">
+    <span class="md-ellipsis">
+      Agent Response: Task or Message
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#other-important-concepts" class="md-nav__link">
     <span class="md-ellipsis">
       Other Important Concepts
@@ -719,6 +730,29 @@
   
   <span class="md-ellipsis">
     Extensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../life-of-a-task/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Life of a Task
     
   </span>
   
@@ -1168,6 +1202,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#agent-response-task-or-message" class="md-nav__link">
+    <span class="md-ellipsis">
+      Agent Response: Task or Message
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#other-important-concepts" class="md-nav__link">
     <span class="md-ellipsis">
       Other Important Concepts
@@ -1221,7 +1264,8 @@
 <li>When a client sends a message to an agent, the agent might determine that fulfilling the request requires a stateful task to be completed (e.g., "generate a report," "book a flight," "answer a question").</li>
 <li>Each task has a unique ID defined by the agent and progresses through a defined lifecycle (e.g., <code>submitted</code>, <code>working</code>, <code>input-required</code>, <code>completed</code>, <code>failed</code>).</li>
 <li>Tasks are stateful and can involve multiple exchanges (messages) between the client and the server.</li>
-<li>See details in the <a href="../../specification/#61-task-object">Protocol Specification: Task Object</a>.</li>
+<li>See details in the <a href="../life-of-a-task/">Life of a Task</a>.</li>
+<li>Protocol specification: <a href="../../specification/#61-task-object">Task Object</a>.</li>
 </ul>
 </li>
 <li>
@@ -1286,6 +1330,8 @@
 </ul>
 </li>
 </ul>
+<h2 id="agent-response-task-or-message">Agent Response: Task or Message<a class="headerlink" href="#agent-response-task-or-message" title="Permanent link">&para;</a></h2>
+<p>See details in the <a href="../life-of-a-task/">Life of a Task</a>.</p>
 <h2 id="other-important-concepts">Other Important Concepts<a class="headerlink" href="#other-important-concepts" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>Context (<code>contextId</code>):</strong> A server-generated identifier that can be used to logically group multiple related <code>Task</code> objects, providing context across a series of interactions.</li>
